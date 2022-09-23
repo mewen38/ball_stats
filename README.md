@@ -7,7 +7,9 @@ ball_stats_drop_script.py drops the fact_games table
 
 ball_stats_uploader.py accepts inputs and inserts into db
 
-ball_stats_basic_select.py runs select * where you can input a game_id for quick data validation
+ball_stats_basic_select.py retrieves entire row for a given game_id
+
+ball_stats_open_query.py executes a full SQL statement
 
 ball_stats_analytics_view.py view DDL for analytics
 
